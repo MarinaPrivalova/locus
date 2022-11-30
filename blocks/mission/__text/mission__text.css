@@ -1,0 +1,29 @@
+.mission__text {
+  max-width: 708px;
+  margin: 0;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #486958;
+}
+
+@media screen and (max-width: 1025px) {
+  .mission__text {
+    font-size: 20px;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .mission__text {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .mission__text {
+   max-width: 100%;
+  }
+}

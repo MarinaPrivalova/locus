@@ -1,0 +1,25 @@
+.form__button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.52;
+  border-radius: 20px 20px 20px 0px;
+  padding: 0;
+  padding-left: 76px;
+  padding-right: 76px;
+}
+
+@media (max-width: 1281px) {
+  .form__button {
+    max-width: 182px;
+    max-height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .form__button {
+    font-size: 20px;
+  }
+}

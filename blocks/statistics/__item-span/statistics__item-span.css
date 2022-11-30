@@ -1,0 +1,25 @@
+.statistics__item-span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.5;
+  color: #58A9A5;
+}
+
+@media screen and (max-width: 1350px) {
+  .statistics__item-span {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .statistics__item-span {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .statistics__item-span {
+    font-size: 20px;
+  }
+}

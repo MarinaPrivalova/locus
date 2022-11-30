@@ -1,0 +1,19 @@
+.statistics__image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  grid-row: 1/2;
+  max-height: 700px;
+}
+
+@media screen and (max-width: 1281px) {
+  .statistics__image {
+    max-height: 460px;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .statistics__image {
+    max-height: 0;
+  }
+}

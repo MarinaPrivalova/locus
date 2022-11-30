@@ -1,0 +1,49 @@
+.round-button {
+  min-width: 128px;
+  min-height: 128px;
+  border-radius: 65%;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 157px;
+  right: -64px;
+  border: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+  .round-button {
+    right: 5px;
+    top: 131px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .round-button {
+    right: 9px;
+    top: 155px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .round-button {
+    top: 185px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .round-button {
+    right: 5px;
+    top: 77px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .round-button {
+    right: 10px;
+    top: 166px;
+  }
+}

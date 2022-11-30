@@ -1,0 +1,19 @@
+.header__button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  border-radius: 15px;
+  padding: 0;
+  padding-left: 88px;
+  padding-right: 88px;
+}
+
+@media (max-width: 1281px) {
+  .header__button {
+    max-width: 150px;
+    max-height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

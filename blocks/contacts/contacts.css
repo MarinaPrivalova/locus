@@ -1,0 +1,32 @@
+.contacts {
+  max-width: 1612px;
+  margin: 240px auto 150px;
+  display: grid;
+  grid-template-columns: minmax(100px, 430px) auto;
+  gap: 104px;
+}
+
+@media screen and (max-width: 1660px) {
+  .contacts {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  .contacts {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .contacts {
+    grid-template-columns: minmax(100px, 310px) auto;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .contacts {
+    grid-template-columns: 1fr;
+    margin-top: 120px;
+  }
+}

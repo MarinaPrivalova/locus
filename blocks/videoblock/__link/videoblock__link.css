@@ -1,0 +1,23 @@
+.videoblock__link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 115px 89px;
+}
+
+@media screen and (max-width: 769px) {
+  .videoblock__link {
+    padding: 10px 50px 58px;
+    color: #FFF;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .videoblock__link {
+    padding: 10px 10px 0;
+  }
+}

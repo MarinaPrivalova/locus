@@ -1,0 +1,12 @@
+.description__image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 721px) {
+  .description__image {
+    grid-row: 1;
+    width: 80%;
+  }
+}

@@ -1,0 +1,11 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 271px;
+  min-height: 80px;
+  background-color: #58A9A5;
+  border: none;
+  color: #FFFFFF;
+  box-sizing: border-box;
+}

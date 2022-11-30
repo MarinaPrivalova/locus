@@ -1,0 +1,27 @@
+.mission__content {
+  display: grid;
+  grid-template-columns: minmax(100px, 642px) auto;
+  margin-top: 150px;
+  gap: 142px;
+}
+
+@media screen and (max-width: 1025px) {
+  .mission__content{
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .mission__content {
+    gap: 50px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .mission__content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+  }
+}

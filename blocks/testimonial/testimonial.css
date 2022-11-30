@@ -1,0 +1,7 @@
+.testimonial {
+  max-width: 1612px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

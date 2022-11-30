@@ -1,0 +1,7 @@
+.round-button__round {
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 65%;
+  background: #FFF;
+  position: relative;
+}

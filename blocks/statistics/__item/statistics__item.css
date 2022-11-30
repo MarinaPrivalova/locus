@@ -1,0 +1,19 @@
+.statistics__item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #58A9A5;
+}
+
+@media screen and (max-width: 1350px) {
+  .statistics__item {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .statistics__item {
+    font-size: 15px;
+  }
+}

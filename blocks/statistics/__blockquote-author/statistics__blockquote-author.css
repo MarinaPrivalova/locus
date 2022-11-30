@@ -1,0 +1,28 @@
+.statistics__blockquote-author {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #58A9A5;
+  margin: 0;
+  padding-bottom: 119px;
+}
+
+@media screen and (max-width: 1350px) {
+  .statistics__blockquote-author {
+    font-size: 19px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .statistics__blockquote-author {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .statistics__blockquote-author {
+    font-size: 14px;
+  }
+}

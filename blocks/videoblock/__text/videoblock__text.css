@@ -1,0 +1,23 @@
+.videoblock__text {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: #486958;
+padding: 70px 115px 41px;
+margin: 0;
+}
+
+@media screen and (max-width: 769px) {
+  .videoblock__text {
+    padding: 70px 50px 0;
+    max-width: 50%;
+    color: #FFF;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .videoblock__text {
+    padding: 15px 10px 0;
+  }
+}

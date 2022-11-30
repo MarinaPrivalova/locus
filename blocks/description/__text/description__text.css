@@ -1,0 +1,29 @@
+.description__text {
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 71px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #404242;
+}
+
+@media screen and (max-width: 1660px) {
+  .description__text {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .description__text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .description__text {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}

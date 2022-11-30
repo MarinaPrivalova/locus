@@ -1,0 +1,19 @@
+.videoblock {
+  max-width: 1612px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1660px) {
+  .videoblock {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .videoblock {
+    align-items: start;
+  }
+}

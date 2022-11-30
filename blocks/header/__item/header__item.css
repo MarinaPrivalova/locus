@@ -1,0 +1,13 @@
+.header__item {
+  margin-right: 85px;
+}
+
+.header__item:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 1281px) {
+  .header__item {
+    margin-right: 50px;
+  }
+}

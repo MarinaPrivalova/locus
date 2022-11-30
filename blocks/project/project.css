@@ -1,0 +1,19 @@
+.project {
+  max-width: 1612px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1660px) {
+  .project {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project {
+    align-items: flex-start;
+  }
+}

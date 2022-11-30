@@ -1,0 +1,23 @@
+.description__two-columns {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(100px, 833px));
+  grid-template-rows: repeat(2, auto);
+  column-gap: 140px;
+  margin-top: 174px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1025px) {
+  .description__two-columns {
+    margin-top: 100px;
+    column-gap: 100px;
+
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .description__two-columns {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}

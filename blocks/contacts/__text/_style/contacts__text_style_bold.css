@@ -1,0 +1,21 @@
+.contacts__text_style_bold {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.5;
+  color: #1C2323;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1025px) {
+  .contacts__text_style_bold {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .contacts__text_style_bold {
+    font-size: 45px;
+  }
+}

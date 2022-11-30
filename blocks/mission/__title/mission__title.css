@@ -1,0 +1,21 @@
+.mission__title {
+  max-width: 487px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #1C2323;
+}
+
+@media screen and (max-width: 1025px) {
+  .mission__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .mission__title {
+    font-size: 21px;
+  }
+}

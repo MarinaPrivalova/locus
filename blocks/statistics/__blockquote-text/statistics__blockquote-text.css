@@ -1,0 +1,28 @@
+.statistics__blockquote-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.52;
+  color: #486958;
+  margin: 0;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1350px) {
+  .statistics__blockquote-text {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .statistics__blockquote-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .statistics__blockquote-text {
+    font-size: 13px;
+  }
+}

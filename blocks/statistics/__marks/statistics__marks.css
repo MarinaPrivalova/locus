@@ -1,0 +1,39 @@
+.statistics__marks {
+  max-width: 133px;
+  aspect-ratio: 1 / 1;
+  position: absolute;
+  z-index: 1;
+  top: -53px;
+  left: -38px;
+}
+
+@media screen and (max-width: 1441px) {
+  .statistics__marks  {
+    max-width: 100px;
+    left: -7px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  .statistics__marks  {
+    top: -59px;
+    left: -13px
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .statistics__marks  {
+    max-width: 50px;
+    aspect-ratio: 1 / 0.8;
+    top: -24px;
+
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .statistics__marks  {
+    max-width: 25px;
+    top: -5px;
+    top: -6px;
+  }
+}

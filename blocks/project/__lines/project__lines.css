@@ -1,0 +1,19 @@
+.project__lines {
+  min-width: 135px;
+  border-top: 5px solid #58A9A5;
+  border-bottom: 5px solid #58A9A5;
+  margin: 50px auto 94px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 769px) {
+  .project__lines {
+    margin: 30px auto 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project__lines{
+    margin-left: 0;
+  }
+}

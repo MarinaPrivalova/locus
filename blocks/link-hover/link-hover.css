@@ -1,0 +1,25 @@
+.link-hover:hover {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: #58A9A5;
+  transition: 0.1s ease-in-out;
+}
+
+.link-hover::after {
+  content: "";
+  display: block;
+  border-radius: 21px;
+  border-bottom: 6px solid #FEC62D;
+  width: 0;
+  transition: 0.1s ease-in-out;
+}
+
+.link-hover:hover:after {
+    width: 48px;
+}
+
+.link-hover:focus {
+  width: 48px;
+}

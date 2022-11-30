@@ -1,0 +1,31 @@
+.statistics__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(85px, 139px) minmax(85px, 160px) minmax(85px, 192px);
+  gap: 117px;
+  max-width: 752px;
+  margin: 50px auto 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1281px) {
+  .statistics__list {
+    grid-template-columns: minmax(85px, 124px) minmax(85px, 141px) minmax(85px, 155px);
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .statistics__list {
+    margin-top: 25px;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .statistics__list {
+    grid-template-columns: repeat(3, min-content);
+    gap: 20px;
+  }
+}
+

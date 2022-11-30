@@ -1,0 +1,10 @@
+.cards__image_style_circle {
+  border-radius: 225px;
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 769px) {
+  .cards__image_style_circle {
+    grid-row: 1;
+  }
+}

@@ -1,0 +1,12 @@
+.form__buttons {
+  width: 90%;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1025px) {
+  .form__buttons {
+    margin-bottom: 30px;
+  }
+}

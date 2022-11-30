@@ -1,0 +1,8 @@
+.videoblock__video {
+  background-image: url(../../../images/block_2diff2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+}

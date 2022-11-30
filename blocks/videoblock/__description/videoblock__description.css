@@ -1,0 +1,16 @@
+.videoblock__description {
+  display: flex;
+  flex-direction: column;
+  background-color: #CCF0E6;
+  border-radius: 0px 10px 10px 0px;
+}
+
+@media screen and (max-width: 769px) {
+  .videoblock__description {
+    background-image: url(../../../images/block_2diff2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+}

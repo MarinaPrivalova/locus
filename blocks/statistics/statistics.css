@@ -1,0 +1,10 @@
+.statistics {
+    max-width: 1612px;
+    margin: auto;
+  }
+
+  @media screen and (max-width: 1660px) {
+    .statistics {
+      width: 90%;
+    }
+  }

@@ -1,0 +1,10 @@
+.mission {
+  max-width: 1612px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1660px) {
+  .mission {
+    width: 90%;
+  }
+}

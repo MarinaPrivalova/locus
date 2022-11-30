@@ -1,0 +1,7 @@
+.testimonial__link {
+}
+
+.testimonial__link:hover {
+  transition: 0.1s;
+  opacity: .5;
+}

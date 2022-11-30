@@ -1,0 +1,5 @@
+.button_status_hover:hover {
+  box-shadow: 1.5px 1.5px #FEC62D;
+  scale: 1.02;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.testimonial__logo {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 425px) {
+  .testimonial__logo {
+    max-width: 200px;
+  }
+}
