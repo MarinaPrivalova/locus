@@ -26,9 +26,9 @@
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/videoblock/__content/videoblock__content.css);
 @import url(../blocks/videoblock/__video/videoblock__video.css);
-@import url(../blocks/round-button/round-button.css);
-@import url(../blocks/round-button/__round/round-button__round.css);
-@import url(../blocks/round-button/__triangle/round-button__triangle.css);
+@import url(../blocks/videoblock/__round-button/videoblock__round-button.css);
+@import url(../blocks/videoblock/__round-button/_round/videoblock__round-button_round.css);
+@import url(../blocks/videoblock/__round-button/_triangle/videoblock__round-button_triangle.css);
 @import url(../blocks/videoblock/__description/videoblock__description.css);
 @import url(../blocks/videoblock/__text/videoblock__text.css);
 @import url(../blocks/videoblock/__link/videoblock__link.css);

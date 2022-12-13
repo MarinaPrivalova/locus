@@ -1,4 +1,4 @@
-.round-button {
+.videoblock__round-button {
   min-width: 128px;
   min-height: 128px;
   border-radius: 65%;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 769px) {
-  .round-button {
+  .videoblock__round-button {
     right: 5px;
     top: 131px;
     z-index: 1;
@@ -22,27 +22,27 @@
 }
 
 @media screen and (max-width: 665px) {
-  .round-button {
+  .videoblock__round-button {
     right: 9px;
     top: 155px;
   }
 }
 
 @media screen and (max-width: 560px) {
-  .round-button {
+  .videoblock__round-button {
     top: 185px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .round-button {
+  .videoblock__round-button {
     right: 5px;
     top: 77px;
   }
 }
 
 @media screen and (max-width: 321px) {
-  .round-button {
+  .videoblock__round-button {
     right: 10px;
     top: 166px;
   }
